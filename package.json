@@ -8,6 +8,7 @@
   },
   "git": "https://github.com/CodeOrRoad/bus.js.git",
   "readme": "README.md",
+  "readmeFilename": "README.md",
   "keywords": [
     "timer",
     "schedule",
