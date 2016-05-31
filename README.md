@@ -2,6 +2,14 @@
 A library to run jobs in repeated or scheduled manner
 
 This is a basic library which runs the jobs repeatedly. You can use the options available to make use of all available features.
+
+Install the library
+
+```
+npm install bus.js
+```
+Initiate the Scheduler as shown below
+
 ```
 var Bus = require("./new-bus.js/index");
 var Scheduler = new Bus({delay: 1000});
@@ -15,6 +23,7 @@ Add your jobs to the scheduler with add member
 Scheduler.add({every: 3, payload: ["This is my data"]}, function(data){
 	console.log("Hello!", data.payload);
 });
+Scheduler.start();
 ```
 
 Available options for add call
