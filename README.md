@@ -18,7 +18,7 @@ Scheduler.add({every: 3, payload: ["This is my data"]}, function(data){
 ```
 
 Available options for add call
-`from` - a date object
-`to` - a date object
-`every` - integer; the step gap
-`payload` - payload which needs to be passed to the job
+* `from` - a date object
+* `to` - a date object
+* `every` - integer; the step gap
+* `payload` - payload which needs to be passed to the job
