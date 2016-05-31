@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "git": "https://github.com/CodeOrRoad/bus.js.git",
-  "readme": "README.md",
   "readmeFilename": "README.md",
   "keywords": [
     "timer",
