@@ -30,10 +30,7 @@ var Bus = function(config){
 	this.ticker = function(time){
 		var self = this;
 		for(var i=0;i<self.jobs.length;i++){
-			var job = self.jobs[i];
-			if(((typeof job.from == "object" && job.from <= time.current.date) || (typeof job.from == "number" && job.from <= time.current.time) || (job.from == null)) && ((typeof job.to == "object" && job.to >= time.current.date) || (typeof job.to == "number" && job.to >= time.current.time) || (job.to == null))){
-				job.job({payload: job.payload, time: time});
-			}
+			self.jobs[i].doJob(time);
 		}
 	};
 };
