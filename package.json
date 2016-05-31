@@ -1,6 +1,6 @@
 {
   "name": "bus.js",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A library to run jobs in repeated or scheduled manner",
   "main": "index.js",
   "scripts": {
